@@ -32,8 +32,8 @@ h1{
     border: 2px solid rgb(58, 57, 57);
 }
 .spot-photo{
-    width: 400px;
-    height: 350px
+    width: 300px;
+    height: 250px
 }
 .about-block{
     display: flex;
@@ -44,7 +44,7 @@ h1{
     display: flex;
     align-items: center;
     margin: 20px  20px 20px;
-    width: 1000px;
+    width: 900px;
     height: 180px;
     border: 3px solid black;
     font-size: 130%;
@@ -53,6 +53,7 @@ h1{
 #ambankment{
     padding: 10px;
     border-radius: 5%;
+    width: 500px;
 }
 
 #about{
