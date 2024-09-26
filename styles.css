@@ -1,0 +1,84 @@
+.header{
+    background-image: url('images/church.jpg');
+    background-size: cover;
+    border: 3px solid rgb(236, 153, 64);
+    height: 700px;
+}
+body{
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+}
+h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgb(199, 144, 67);
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px black;
+    width: 300px;
+    margin: auto;
+    margin-top: 150px;
+    font-weight: 900;
+    font-size: 350%;
+    font-family: "Fredoka", sans-serif;
+    box-shadow: 0px 10px 10px rgb(124, 61, 22);;
+}
+.places{
+    display: flex;
+    justify-content: space-around;
+}
+.spot{
+    border: 2px solid rgb(58, 57, 57);
+}
+.spot-photo{
+    width: 400px;
+    height: 350px
+}
+.about-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+#about-text{
+    display: flex;
+    align-items: center;
+    margin: 20px  20px 20px;
+    width: 1000px;
+    height: 180px;
+    border: 3px solid black;
+    font-size: 130%;
+    padding: 0px 10px;
+}
+#ambankment{
+    padding: 10px;
+    border-radius: 5%;
+}
+
+#about{
+    display: flex;  
+    flex-direction:column;
+    justify-content: center;
+    align-items: start;
+}
+h2{
+    margin-left: 40px;
+}
+.footer{
+    background-color: rgb(227, 223, 223);
+    height: 150px;
+    margin-top: 20px;
+    padding-top: 1px;
+}
+button{
+    background-color: rgb(236, 219, 213);
+    border-radius: 15%;
+    border: 1px solid rgb(37, 37, 37);
+    height: 23px;
+}
+input{
+    width: 150px;
+    height: 20px;
+    border-radius: 5px;
+    
+}
