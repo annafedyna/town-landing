@@ -30,10 +30,13 @@ h1{
 }
 .spot{
     border: 2px solid rgb(58, 57, 57);
+    border-radius: 3%;
 }
 .spot-photo{
-    width: 300px;
-    height: 250px
+    padding: 2px;
+    width: 400px;
+    height: 350px;
+    border-radius: 3%;
 }
 .about-block{
     display: flex;
@@ -66,20 +69,37 @@ h2{
     margin-left: 40px;
 }
 .footer{
-    background-color: rgb(227, 223, 223);
+    background-color: rgb(254, 249, 249);
     height: 150px;
     margin-top: 20px;
     padding-top: 1px;
 }
 button{
-    background-color: rgb(236, 219, 213);
+    background-color: rgb(251, 245, 243);
     border-radius: 15%;
     border: 1px solid rgb(37, 37, 37);
-    height: 23px;
+    height: 33px;
+    width: 60px;
+    margin: 10px 10px;
+    padding: 1px 2px ;
 }
 input{
     width: 150px;
     height: 20px;
     border-radius: 5px;
     
+}
+#carousel-image{
+    width: 400px;
+    height: 350px;
+    border-radius: 3%;
+}
+.hotels{
+    margin: 60px;
+
+}
+.carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
